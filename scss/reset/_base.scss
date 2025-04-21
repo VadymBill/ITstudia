@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 482px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media (min-width: 1140px) {
+    width: 1140px;
+  }
+}

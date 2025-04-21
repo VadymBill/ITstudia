@@ -1,0 +1,47 @@
+
+.main-title{
+text-align: center;
+font-family: "Montserrat";
+font-weight: 800;
+font-size: 48px;
+line-height: 134%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.main-text{
+    text-align: center;
+font-family: "Montserrat";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.main-button{
+    display: block;
+    margin: 0 auto;
+    width: 200;
+height: 45;
+top: 520px;
+left: 860px;
+border-radius: 30px;
+font-family: "Montserrat";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+background-color: #4985FF;
+padding: 15px 36px;
+color: #FFF;
+}
+.main {
+  background-image:
+    url(../../img/main.jpg);
+    padding: 118px 0px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}

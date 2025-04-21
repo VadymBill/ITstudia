@@ -1,0 +1,20 @@
+.header-list {
+  display: none;
+  @media (min-width: 1200px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.header-li {
+  padding-left: 45px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
