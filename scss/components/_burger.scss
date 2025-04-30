@@ -1,5 +1,9 @@
 .burger {
   display: block;
+  display: flex;
+  position: absolute;
+  left: 400px;
+  top: 20px;
   @media (min-width: 768px) {
     display: none;
   }

@@ -1,8 +1,12 @@
 .header-list {
   display: none;
+
   @media (min-width: 1200px) {
     display: flex;
     justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 .header-li {
@@ -13,8 +17,32 @@
   line-height: 100%;
   letter-spacing: 0%;
 }
+
 .header {
   position: absolute;
+
   top: 0;
+
   right: 0;
+  @media (min-width: 1140px) {
+    border-bottom: 2px solid #999999;
+  }
+}
+.header::after {
+  color: gray;
+}
+.header-link {
+  color: #fff;
+  position: relative;
+}
+
+.header-link::after {
+  color: red;
+  display: inline-block;
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  z-index: 3;
 }

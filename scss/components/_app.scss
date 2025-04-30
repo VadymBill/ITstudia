@@ -1,59 +1,73 @@
-.app-title{
-    font-family: Montserrat;
-font-weight: 700;
-font-size: 36px;
-line-height: 146%;
-letter-spacing: 0%;
-text-align: center;
+.app-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
 }
-.app-text{
-    font-family: "Montserrat";
-font-weight: 400;
-font-size: 16px;
-line-height: 158%;
-letter-spacing: 0%;
-text-align: center;
-color: #999999;
+.app-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #999999;
+ 
+  width: 730px;
+  margin: 0 auto;
+   margin-bottom: 70px;
 }
-.app-list{
+.app-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  @media (min-width: 1140px) {
     display: flex;
-    flex-direction: column;
-    @media (min-width:1140px) {
-display: flex;
-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 55px;
+    gap: 30px;
+  }
 }
+.app-titlelist {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
 }
-.app-titlelist{
-    font-family: "Montserrat";
-font-weight: 600;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-
+.app-textlist {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  color: #000000;
+  width: 222px;
 }
-.app-textlist{
-    font-family: "Montserrat";
-font-weight: 400;
-font-size: 14px;
-line-height: 158%;
-letter-spacing: 0%;
-color: #000000;
+.app-button {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 200;
+  height: 45;
+  top: 1453px;
+  left: 860px;
+  border-radius: 30px;
+  margin: 0 auto;
+  color: #fff;
+  display: block;
+  background-color: #4985ff;
+ margin-bottom: 105px;
+  padding: 15px 36px;
+  border-color:transparent;
 }
-.app-button{
-    font-family: "Montserrat";
-font-weight: 500;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-width: 200;
-height: 45;
-top: 1453px;
-left: 860px;
-border-radius: 30px;
-margin: 0 auto;
-color: #FFF;
-display: block;
-background-color: #4985FF;
-padding: 15px 36px;
+.app-wrap{
+  display: flex;
 }

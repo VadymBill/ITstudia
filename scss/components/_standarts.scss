@@ -1,63 +1,83 @@
-.standarts-title{
-    font-family: "Montserrat";
-font-weight: 700;
-font-size: 36px;
-line-height: 146%;
-letter-spacing: 0%;
-color: #323232;
+.standarts {
+  background-color: #e0e0e0;
 }
-.standarts-text{
-font-family: "Montserrat";
-font-weight: 400;
-font-size: 16px;
-line-height: 158%;
-letter-spacing: 0%;
-color: #999999;
-width: 489px;
+.standarts-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  letter-spacing: 0%;
+  color: #323232;
+  margin-bottom: 30px;
 }
-.standarts-link{
-    font-family: "Montserrat";
-font-weight: 500;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-color: #323232;
+.standart-img {
+  margin-top: 100px;
+  margin-bottom: 160px;
 }
-.standarts-wrap{
-    @media(min-width: 1140px){
-
-    
+.standarts-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  color: #999999;
+  width: 489px;
+  margin-bottom: 30px;
+}
+.standarts-link {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #323232;
+}
+.standarts-wrap {
+  @media (min-width: 1140px) {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 120px;
-    }
+  }
 }
-.standarts-list{
-    display: flex;
-    flex-direction: column;
-    @media(min-width: 1140px){
+.standarts-list {
+  display: flex;
+  flex-direction: column;
+align-items: center;
 
-    
+  @media (min-width: 1140px) {
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    }
+    gap: 100px;
+  }
 }
-.standarts-titlelist{
-   font-family: "Montserrat";
-font-weight: 400;
-font-size: 36px;
-line-height: 146%;
-letter-spacing: 0%;
-
+.standarts-li {
+  margin-bottom: 20px;
+  @media (min-width: 1140px) {
+    margin-bottom: 70px;
+  }
 }
-.standarts-textlist{
-   font-family: "Montserrat";
+.standarts-titlelist {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 146%;
+  letter-spacing: 0%;
+}
+.standarts-titlelist::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../img/standarts.png);
+  margin-right: 20px;
+}
+.standarts-textlist {
+  font-family: "Montserrat";
 
-font-weight: 400;
-font-size: 16px;
-line-height: 158%;
-letter-spacing: 0%;
-
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  letter-spacing: 0%;
 }
